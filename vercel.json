@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "/api/index.php",
+      "use": "vercel-php@0.6.2"
+    },
+    {
+      "src": "/document/*",
+      "use": "vercel-php@0.6.2"
+    }
+  ]
+
+}
